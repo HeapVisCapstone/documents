@@ -26,8 +26,7 @@ system's package manager);
 ## How to run visualizations?
 
 For the planar embedding, you need to generate a heap trace for you program using [Elephant Tracks](http://www.cs.tufts.edu/research/redline/elephantTracks/), 
-and then follow the instructions [here](https://github.com/HeapVisCapstone/tracesimulator). If you want to see the class hierarchy 
-visualization, you need also to follow the instructions [here](https://github.com/HeapVisCapstone/hierarchy) to get a hierarchy file.
+and then follow the instructions in the README [here](https://github.com/HeapVisCapstone/tracesimulator). If you want to see the class hierarchy visualization, you need also to follow the instructions [here](https://github.com/HeapVisCapstone/hierarchy) to get a hierarchy file.
 
 ## Downloading and building
 
@@ -41,3 +40,4 @@ By default the Makefile uses `clang++`, but `g++` will work too.
 ## Future work
 
 In the future, we will implement animation features to show the change of heap usage over time.
+Other possible work could use machine learning to better cluster the heap graph or run shape analysis on the heap graph to identify data structures.
