@@ -35,6 +35,9 @@ visualization, you need also to follow the instructions [here](https://github.co
 `git clone git@github.com:HeapVisCapstone/hierarchy.git` to clone the hierarchy plugin. For both libraries, simply type `make` to build. 
 By default the Makefile uses `clang++`, but `g++` will work too.
 
+## Create Datasets and Running Visualizations
+[See the README here](https://github.com/HeapVisCapstone/tracesimulator)
+
 ## Future work
 
 In the future, we will implement animation features to show the change of heap usage over time.
